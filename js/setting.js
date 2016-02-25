@@ -10,7 +10,7 @@ Taxes.taxRate = 0.06; // 住民税率
 
 var OpenSpending = OpenSpending || {};
 
-OpenSpending.identifier = 'takahashi_2015_ippan';
+OpenSpending.identifier = 'asakuchi_2015_ippan';
 OpenSpending.year = '2015';
 
 OpenSpending.Styles = OpenSpending.Styles || {};
@@ -18,50 +18,15 @@ OpenSpending.Styles = OpenSpending.Styles || {};
 OpenSpending.Styles.Cofog = {
 
   /* yokohama cofog */
-  '1':   { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '1-1': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '2':   { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '2-1': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '2-2': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '2-3': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '2-4': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '2-5': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '2-6': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '3':   { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '3-1': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '3-2': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '3-3': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '4':   { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '4-1': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '4-2': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '5':   { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '5-1': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '6':   { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '6-1': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '6-2': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '7':   { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '7-1': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '8':   { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '8-1': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '8-2': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '8-3': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '8-4': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '8-5': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '9':   { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '9-1': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '10':  { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '10-1': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '10-2': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '10-3': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '10-4': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '10-5': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '10-6': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '10-7': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '11':   { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '11-1': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '11-2': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '12':   { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '12-1': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '13':   { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' },
-  '13-1': { icon: 'icons/government-uk.svg', color: '#C75746', bcolor: '#935B3B' }
+  '1': { icon: 'family2.svg', color: '#C75746', bcolor: '#935B3B' },
+  '2': { icon: 'manufactoring-construction.svg', color: '#C75746', bcolor: '#0AB971' },
+  '3': { icon: 'education.svg', color: '#C75746', bcolor: '#4E6D00' },
+  '4': { icon: 'money.svg', color: '#C75746', bcolor: '#D33673' },
+  '5': { icon: 'publicaffairs.svg', color: '#C75746', bcolor: '#2A3A03' },
+  '6': { icon: 'helping-others.svg', color: '#C75746', bcolor: '#EC2406' },
+  '7': { icon: 'fire-brigade.svg', color: '#C75746', bcolor: '#938626' },
+  '8': { icon: 'farms.svg', color: '#C75746', bcolor: '#C75746' },
+  '9': { icon: 'government-uk.svg', color: '#C75746', bcolor: '#D33673' },
+  '10': { icon: 'economic-aid.svg', color: '#C75746', bcolor: '#790586' },
+  '11': { icon: 'admin.svg', color: '#C75746', bcolor: '#790586' },
 };
